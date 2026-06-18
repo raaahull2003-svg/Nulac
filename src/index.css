@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@305;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-serif: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+/* --- Clean Minimalism Theme Color Overrides --- */
+
+body {
+  font-family: "Inter", system-ui, -apple-system, sans-serif !important;
+}
+
+/* Background maps to Slate-50 */
+.bg-\[\#FAF9F5\] {
+  background-color: #f8fafc !important; /* slate-50 styling */
+}
+
+/* Map Deep Moss Green to Emerald-700/800 */
+.bg-\[\#1B4D3E\],
+.bg-gradient-to-br.from-\[\#1B4D3E\] {
+  background-color: #047857 !important; /* emerald-700 */
+  background-image: none !important;
+}
+.from-\[\#1B4D3E\],
+.bg-gradient-to-br {
+  --tw-gradient-from: #047857 !important;
+}
+.to-\[\#143B2F\] {
+  --tw-gradient-to: #064e3b !important; /* emerald-900 */
+}
+
+.text-\[\#1B4D3E\] {
+  color: #065f46 !important; /* emerald-800 */
+}
+
+/* Map Secondary Green to Emerald-600 */
+.bg-\[\#2E8B57\] {
+  background-color: #059669 !important; /* emerald-600 */
+}
+.text-\[\#2E8B57\] {
+  color: #059669 !important; /* emerald-600 */
+}
+
+/* Map Soft Green to Emerald-50 */
+.bg-\[\#E8F0EC\] {
+  background-color: #ecfdf5 !important; /* emerald-50 */
+}
+.bg-\[\#E8F0EC\]\/10 {
+  background-color: rgba(236, 253, 245, 0.1) !important;
+}
+.bg-\[\#1B4D3E\]\/10 {
+  background-color: rgba(236, 253, 245, 0.95) !important;
+  color: #065f46 !important;
+}
+
+/* Border overrides */
+.border-\[\#2E8B57\]\/20,
+.border-\[\#2E8B57\]\/30 {
+  border-color: #a7f3d0 !important; /* emerald-200 */
+}
+
+/* Map Premium Gold to crisp emerald markers */
+.text-\[\#D4AF37\] {
+  color: #34d399 !important; /* emerald-400 */
+}
+.text-amber-500 {
+  color: #059669 !important; /* emerald-600 */
+}
+
+/* Box & Form adjustments to clean Slate neutrals */
+.bg-\[\#FDFBF2\],
+.bg-\[\#FFFDF5\],
+.bg-\[\#FFFDF5\] {
+  background-color: #f8fafc !important; /* slate-50 */
+  border-color: #e2e8f0 !important; /* slate-200 */
+}
+
+.border-amber-200 {
+  border-color: #cbd5e1 !important; /* slate-300 */
+}
+
+/* Keep the dark code editor pristine */
+.bg-\[\#1E1E1E\] {
+  background-color: #1e1e1e !important;
+}
+.text-\[\#D4D4D4\] {
+  color: #d4d4d4 !important;
+}
+.text-\[\#CE9178\] {
+  color: #ce9178 !important;
+}
+.text-\[\#6A9955\] {
+  color: #6a9955 !important;
+}
+.text-\[\#4FC1FF\] {
+  color: #4fc1ff !important;
+}
+.text-\[\#569CD6\] {
+  color: #569cd6 !important;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Nulac",
+  "description": "An interactive premium simulator and Flutter Clean Architecture code center for Nulac Dairy, highlighting premium farm-direct milk, ghee, and fresh products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
